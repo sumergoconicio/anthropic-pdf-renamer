@@ -4,7 +4,7 @@ This script does the following:
 
 - takes a folder full of badly-named PDFs,
 - extracts text from the first page,
-- sends that text to OpenAI to guess the title, author and date of first publication
+- sends that text to Anthropic to guess the title, author and date of first publication
 - and renames files with the results.
 
 **Caution**
