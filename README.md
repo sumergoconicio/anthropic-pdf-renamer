@@ -1,4 +1,4 @@
-# Anthropic PDF Renamer (v0.6)
+# Anthropic PDF Renamer (v1.0)
 
 A robust, modular Python script for auto-renaming PDFs in a directory by extracting text, using Anthropic's Claude LLM to infer metadata (author, title, publication year), renaming files, and updating PDF metadata accordingly.
 
