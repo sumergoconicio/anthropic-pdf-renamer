@@ -20,8 +20,14 @@ from datetime import datetime
 
 # --- CONFIGURATION ---
 
-# Replace with your actual API key. Keep this secret!
-chai = Anthropic(api_key="INSERT_API_KEY_HERE")
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Get the API key from environment variable
+api_key = os.getenv('ANTHROPIC_API_KEY')
+chai = Anthropic(api_key=api_key)
 
 # --- HELPER FUNCTIONS ---
 
