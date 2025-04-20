@@ -1,5 +1,5 @@
 ##############
-# Name: anthropic-pdf-renamer
+# Name: anthropic-pdf-renamer (OLD code, DO NOT USE)
 # Author: Naveen Srivatsav
 # Version: 0.5
 # Description: This script takes a folder full of badly-named PDFs, 
