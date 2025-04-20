@@ -6,7 +6,7 @@ A robust, modular Python script for auto-renaming PDFs in a directory by extract
 
 - **Batch renames PDFs** in a folder based on LLM-inferred metadata
 - **Extracts text from the first 10 pages** (configurable) of each PDF (no OCR, text-based PDFs only)
-- **Queries Anthropic Claude** for structured JSON metadata (author, title, pubdate)
+- **Queries Anthropic Claude Haiku** for structured JSON metadata (author, title, pubdate)
 - **Sanitizes and constructs safe filenames** (avoids OS issues, collisions, and length problems)
 - **Updates internal PDF metadata** (title, author, creation date)
 - **Extensible, testable, and robust**: modular design, clear separation of concerns, atomic file operations
@@ -38,7 +38,7 @@ A robust, modular Python script for auto-renaming PDFs in a directory by extract
 
 ## Caution
 
-Please manage the security of your own data. Any loss of personal content due to errors in this script is your responsibility. Vet, test, and modify the script to meet your needs. Keep backups of important data.
+Please manage the security of your own data. Any loss of personal content due to errors in this script is your responsibility. Vet, test, and modify the script to meet your needs. Keep backups of important data. And of course, don't expose any files with sensitive data to commercial LLMs.
 
 ## Known Issues
 
