@@ -56,7 +56,7 @@ def load_llm(api_key_env_var: str = "ANTHROPIC_API_KEY") -> Anthropic:
         raise RuntimeError("Anthropic API key is missing. Please set the ANTHROPIC_API_KEY environment variable or .env file.")
     return Anthropic(api_key=api_key)
 
-def extract_first_n_pages_text(pdf_path: Path, n: int = 10) -> Optional[str]:
+def extract_first_n_pages_text(pdf_path: Path, n: int = 5) -> Optional[str]:
     """
     Big-picture: Extract text content from the first n pages of a PDF (no OCR, only text PDF).
     Inputs: pdf_path - Path to PDF file; n - number of pages to extract.
