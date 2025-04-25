@@ -1,6 +1,6 @@
 ########### PYTHON
 # Script Title: Anthropic PDF Renamer (v0.6 - Refactored)
-# Script Description: Auto-renames PDFs in a directory by extracting first-page text, leveraging Anthropic's Claude LLM to infer author/title/pubdate, renaming files, and updating PDF metadata accordingly. Rewrites, extension, and clarity improvements per modern Python and systems best practice.
+# Script Description: Auto-renames PDFs in a directory by extracting first-page text, leveraging Anthropic's Claude Haiku model to infer author/title/pubdate, renaming files, and updating PDF metadata accordingly. Rewrites, extension, and clarity improvements per modern Python and systems best practice.
 # Script Author: myPyAI + Naveen Srivatsav
 # Last Updated: 20240604
 # TLA+ Abstract:
